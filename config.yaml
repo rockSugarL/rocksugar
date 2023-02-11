@@ -100,20 +100,20 @@ params:
       clientSecret:
       autoCreateIssue: false
 
-    # Waline client configuration see: https://waline.js.org/en/reference/component.html
+    # Waline client configuration see: https://waline.js.org/en/reference/client.html
     waline:
-      serverURL:
-      lang:
-      pageview:
+      serverURL: https://your-domain.vercel.app
+      lang: zh-CN
+      visitor: false
+      avatar: mp
       emoji:
-        - https://unpkg.com/@waline/emojis@1.0.1/weibo
+        - https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo
       requiredMeta:
-        - name
-        - email
-        - url
+        - nick
+        - mail
+      placeholder: 欢迎评论
       locale:
-        admin: Admin
-        placeholder:
+        admin: 博主
 
     twikoo:
       envId:
