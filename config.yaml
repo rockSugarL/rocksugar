@@ -183,8 +183,6 @@ params:
       enabled: true
     content:
       enabled: true
-    # 加入字数统计
-hasCJKLanguage: true
 
 ### Custom menu
 ### See https://docs.stack.jimmycai.com/configuration/custom-menu.html
